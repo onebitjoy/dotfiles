@@ -1,0 +1,32 @@
+import = [
+"~/.config/alacritty/themes/themes/thelovelace.toml"
+]
+live_config_reload = true
+
+[window]
+opacity = 0.8
+padding = {x = 5, y = 5}
+startup_mode = "Maximized"
+blur = true
+
+[font]
+normal = { family="Cousine Nerd Font"}
+bold = {family="SpaceMono Nerd Font"}
+italic = {family="SpaceMono Nerd Font"}
+
+size = 10.0
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape="Beam", blinking="On" }
+unfocused_hollow = true
+blink_interval = 400
+thickness = 0.9
+
+[mouse]
+bindings = [ { mouse = "Right", mods = "Control", action = "Paste" } ]
+
+[colors]
+draw_bold_text_with_bright_colors = true
